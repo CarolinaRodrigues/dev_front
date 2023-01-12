@@ -1,0 +1,27 @@
+body{
+    background: rosybrown;
+}
+a {
+    padding: 5px 10px;
+    text-decoration: none;
+}
+/*
+primeiro links visitados
+links visitados 
+hover 
+e 
+ativos
+*/
+a:link, a:visited{
+    color: #b9c941;
+}
+/*
+a:visited{
+    color: #c0c0c0;
+}*/
+a:hover {
+    color: #6d790f;
+}
+a:active {
+    color: #e4f30f;
+}

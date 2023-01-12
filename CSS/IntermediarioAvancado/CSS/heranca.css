@@ -1,0 +1,48 @@
+/*
+Herança e especificidade
+conceito: 
+seletores tem uma precedencia
+*/
+/*
+body {
+    background: grey;
+    border: 1px solid blue;
+    margin: 0px;
+}
+*/
+/*
+Seletores iguais, exceção important
+
+#pagina p {
+    color: blue !important;
+}
+p {
+    color: red;
+}
+*/
+/*
+.pagina {
+    background: yellowgreen;
+    color: yellow;
+    font-size: 1p6x;
+    border: 5px solid red;
+}
+*/
+
+/*Se um seletor for mais específico que outro
+a regra mais específica será aplicada
+(tera precedência sobre regras mais gerais)
+*/
+
+* {
+    color: red;
+}
+h2 { /*3 ordem de precedência*/
+    color: black;
+}
+h2.verde {/*2*/
+    color: green;
+}
+h2#amarelo {/*1*/
+    color: yellow;
+}
